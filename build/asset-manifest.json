@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.29b7ece3.chunk.css",
+    "main.js": "/static/js/main.2229653b.chunk.js",
+    "main.js.map": "/static/js/main.2229653b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.98211999.js",
+    "runtime-main.js.map": "/static/js/runtime-main.98211999.js.map",
+    "static/js/2.5501a9d0.chunk.js": "/static/js/2.5501a9d0.chunk.js",
+    "static/js/2.5501a9d0.chunk.js.map": "/static/js/2.5501a9d0.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c21403073cd31b8696d5e3d81fcc686e.js": "/precache-manifest.c21403073cd31b8696d5e3d81fcc686e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.29b7ece3.chunk.css.map": "/static/css/main.29b7ece3.chunk.css.map",
+    "static/js/2.5501a9d0.chunk.js.LICENSE.txt": "/static/js/2.5501a9d0.chunk.js.LICENSE.txt",
+    "static/media/chess-clock.svg": "/static/media/chess-clock.1bb65951.svg",
+    "static/media/chess.svg": "/static/media/chess.5af099f4.svg",
+    "static/media/github.svg": "/static/media/github.6b5cfffd.svg",
+    "static/media/horse.svg": "/static/media/horse.a6e8933e.svg",
+    "static/media/social-care.svg": "/static/media/social-care.b1d62094.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98211999.js",
+    "static/js/2.5501a9d0.chunk.js",
+    "static/css/main.29b7ece3.chunk.css",
+    "static/js/main.2229653b.chunk.js"
+  ]
+}
