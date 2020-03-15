@@ -6,7 +6,6 @@ Ajedrez BCN is a project aimed to make the management of tournaments by clubs an
 
 ## Getting started
 - Fork/Clone the repo
-- `$ cd escacsBCN`
 - Ensure you have PostgreSQL running on your machine
 - `$ npm start` from terminal once PostgreSQL is set up
 
