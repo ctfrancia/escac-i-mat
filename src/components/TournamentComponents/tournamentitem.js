@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 
 class TournamentItem extends Component {
   render() {
-
-    let time = this.props.dateCreated.slice(0,10);
-
+    const time = this.props.dateCreated.slice(0,10);
     return (
       <div className="tContainer">
         <div className="t-info-div">

@@ -11,8 +11,6 @@ import RegisterUserOrSignin from './Login-Logout-Register-Components/RegisterUse
 import { Link, Router } from '@reach/router';
 
 class NavBar extends Component {
-
-
 render() {
     return (
       <div>
