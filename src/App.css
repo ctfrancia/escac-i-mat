@@ -1,0 +1,305 @@
+button{
+  background: none;
+  border: none;
+  color: #ffdd4a;
+  cursor: pointer;
+}
+
+.App {
+  height: 100%;
+  background-color: #3c6997;
+  color: aliceblue;
+}
+/* Nav bar Start */
+.nav-container{
+  display:flex;
+  padding: 2%;
+  background-color: #194674;
+  justify-content: space-between;
+  -webkit-box-shadow: 0px 8px 8px -6px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 8px 8px -6px rgba(0,0,0,1);
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,1);
+  border-radius: 0px 0px 10px 10px;
+  -moz-border-radius: 0px 0px 10px 10px;
+  -webkit-border-radius: 0px 0px 10px 10px;
+  border: 0px solid #000000;
+}
+
+.nav-button{
+  padding: 0 10px;
+  font-size: 16px;
+  font-family: 'Abel', 'Thasadith', 'Roboto', sans-serif;
+}
+.no-underline{
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Nav bar END */
+
+
+.donate-parent{
+  display: flex;
+}
+.home-img{
+  height: 400px;
+}
+.help-img{
+  height: 350px;
+}
+.home-content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-self: center;
+  margin: 2%;
+  font-family: 'Abel', 'Thasadith', 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+.donate-container{
+  width: 95%;
+  display: flex;
+  align-content: center;
+  align-self: center;
+  margin: 2%;
+  font-family: 'Abel', 'Thasadith', 'Roboto', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+}
+.github-img{
+  height: 500px;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  width: 50%
+}
+a{
+  color: #fe9000;
+  font-weight: 800;
+}
+.the-rest{
+  display:flex;
+}
+
+h3{
+  color:#fe9000;
+  font-family: 'Abel'
+}
+
+
+/* Tournament Item Container */
+.tContainer{
+  display: flex;
+  margin: 2em;
+  height: 560px;
+  border: 1px solid #fe9000;
+  border-radius: 10px;
+  overflow: scroll;
+  text-align: center;
+  justify-content: space-between;
+  -webkit-box-shadow: 6px 8px 8px -6px rgb(236, 236, 236);
+  -moz-box-shadow: 6px 8px 8px -6px rgba(0,0,0,1);
+  box-shadow: 6px 8px 8px 0px #fe9000;
+}
+.t-info-div{
+  width: 5em;
+
+}
+
+/* tournament list container */
+.tl-container{
+display: flex;
+align-self: center;
+}
+/* Tournament container */
+.tc-button-container{
+  display:flex;
+  justify-content: space-around;
+}
+.tc-text{
+  text-align: center;
+  font-family: 'Abel', 'Thasadith', 'Roboto', sans-serif;
+  font-size: 2em;
+}
+.t-more-info-column{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.close-form{
+  font-weight: 900;
+}
+.t-div{
+  width: 130%;
+  padding-left: 8px;
+}
+
+.tinfo{
+  word-wrap: break-word;
+  width: 70%;
+
+}
+.button-font{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 1.5em;
+}
+
+
+/* ALL IMG MODS ARE BELOW */
+.img-clock{
+  height: 50px;
+}
+
+/* !!!!!FORM CSS BELOW!!!!! */
+.form-container{
+  Display: flex;
+  justify-content: space-around;
+}
+.input-container{
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+  flex-direction: column;
+
+}
+.input-div{
+  display: flex;
+  flex-direction: column;
+}
+.rc-container{
+  display: flex;
+  flex-direction: column;
+}
+.rc-form{
+  display: flex;
+  flex-direction: column;
+}
+.f-input{
+  border: none;
+  height: 2.5em;
+  border-radius: 5px;
+  color: #ffdd4a;
+  background-color: #5078a2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  align-items: center;
+  margin:5px;
+}
+.checkbox-inputs{
+  display: flex;
+  align-self: center;
+}
+.send{
+  margin-left: 8%;
+  align-self: center;
+}
+.t-text{
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 1.3px;
+}
+
+.login-container{
+  display: flex;
+  flex-direction: column;
+}
+.ctf-container{
+  width: 75vw;
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+}
+
+.f-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+.basic-info-container{
+  width: 100%;
+  display:flex;
+  justify-content: flex-start;
+}
+.form-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.first-column,
+.second-column{
+  width: 50%;
+}
+textarea{
+  resize: none;
+  height: 10em;
+  border: none;
+  border-radius: 5px;
+  color: #ffdd4a;
+  background-color: #5078a2;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+  font-weight: 800;
+  align-items: center;
+  margin:5px;
+}
+
+input[type=text],
+input[type=tel],
+input[type=email],
+input[type=password],
+textarea {
+border: 0;
+box-shadow: -8px 10px 0px -7px #bb9f7a, 8px 10px 0px -7px #bb9f7a;
+-webkit-transition: box-shadow 0.3s;
+transition: box-shadow 0.3s;
+}
+
+input[type=text]:focus{
+outline: none;
+box-shadow: -8px 10px 0px -7px #fe9000, 8px 10px 0px -7px #fe9000;
+}
+input[type=tel]:focus{
+outline: none;
+box-shadow: -8px 10px 0px -7px #fe9000, 8px 10px 0px -7px #fe9000;
+}
+input[type=email]:focus{
+outline: none;
+box-shadow: -8px 10px 0px -7px #fe9000, 8px 10px 0px -7px #fe9000;
+}
+input[type=password]:focus{
+outline: none;
+box-shadow: -8px 10px 0px -7px #fe9000, 8px 10px 0px -7px #fe9000;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+}
+.pointer{
+  cursor: pointer;
+}
+.hvr-grow {
+  margin: 0px 5px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.2);
+}
+p{
+  font-family: 'Abel';
+  font-weight: 700;
+}
